@@ -1,6 +1,17 @@
 import express from 'express';
 
+import './database/connection';
+
 
 const app = express();
 
+app.use(express.json());
+
+app.get('/', (req, res) => {
+    return res.json({ msg: 'HI' })
+})
+
+
+
 app.listen(3333);
+
