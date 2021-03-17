@@ -13,7 +13,7 @@
 /uploads/*
 
 # exception to the rule
-!uploads/.gitkeep 
+!/uploads/.gitkeep 
 
 # misc
 .DS_Store
