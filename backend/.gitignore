@@ -10,10 +10,7 @@
 
 # production
 /build
-/uploads/*
 
-# exception to the rule
-!/uploads/.gitkeep 
 
 # misc
 .DS_Store
